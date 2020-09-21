@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0dd15085-42b9-4f85-b5ea-bee0636b751b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gxust2dsBnMjDXhH0xtjq3wF3h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Александр\WebstormProjects\Main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Александр\WebstormProjects\Main" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0dd15085-42b9-4f85-b5ea-bee0636b751b" name="Default Changelist" comment="" />
+      <created>1599068774987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599068774987</updated>
+      <workItem from="1599068776020" duration="2666000" />
+      <workItem from="1599130305034" duration="9685000" />
+      <workItem from="1599147482946" duration="10047000" />
+      <workItem from="1599246188695" duration="9906000" />
+      <workItem from="1599306269641" duration="9923000" />
+      <workItem from="1600366580001" duration="2918000" />
+      <workItem from="1600531806383" duration="6791000" />
+      <workItem from="1600625953710" duration="321000" />
+      <workItem from="1600627396978" duration="7982000" />
+      <workItem from="1600690438538" duration="337000" />
+      <workItem from="1600690846555" duration="211000" />
+      <workItem from="1600698046740" duration="6513000" />
+      <workItem from="1600705315489" duration="792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1600629893180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1600629893180" />
+    <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600539090140">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1600539090140" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599217556633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1599217556633" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1600703941423">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1600703941423" />
+    <state x="279" y="0" width="578" height="824" key="find.popup" timestamp="1600635264778">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="0" width="578" height="824" key="find.popup/0.0.1536.824/1920.2.1920.1040@0.0.1536.824" timestamp="1600635264778" />
+  </component>
+</project>

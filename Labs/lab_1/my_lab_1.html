@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>My strange lab</title>
+    <link rel="icon" type="image/png" href="../../images/yes_boy.png">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../animations.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<style>
+    .politicalCoordinates{
+        transition: 0.5s;
+        margin-right: 30px;
+    }
+    .politicalCoordinates:hover{
+        transform: scale(1.05);
+    }
+    .form{
+        transition: 0.5s;
+        font-family: "Franklin Gothic Demi Cond", fantasy;
+        font-size: 24px;
+        border-radius: 10px;
+        border-style: outset;
+        border-color: #3a6383;
+        background-color: #437196;
+        opacity: 90%;
+        margin-right: 30px;
+        margin-top: 30px;
+        padding: 5px;
+        width: 300px;
+        height: 350px;
+    }
+    .form:hover{
+        transform: scale(1.05);
+    }
+    .form .selectBlock{
+        text-align: left;
+        margin: 10px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .text{
+        text-align: center;
+        background-color: #6092ba;
+        border-style: outset;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+    .text:hover{
+        background-color: #5185a9;
+    }
+    .resultForm{
+        transition: 0.5s;
+        font-family: "Franklin Gothic Demi Cond", sans-serif;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-right: 20px;
+        background-color: #437196;
+        opacity: 90%;
+    }
+    .resultForm:hover{
+        transform: scale(1.05);
+    }
+    select, input{
+        font-weight: bold;
+        text-align: left;
+        margin: 2px;
+        font-size: 18px;
+        padding: 2px;
+        width: 150px;
+    }
+    select{
+        appearance: none;
+        -webkit-appearance: none;
+    }
+    .button{
+        width: 100px;
+    }
+    .input{
+        text-align: left;
+        cursor: text;
+    }
+</style>
+<div id="trailer" class="is_overlay">
+    <video id="video" width="100%" height="auto" autoplay loop preload muted>
+        <source src=../../Videos/cyber_lab_1.mp4>
+    </video>
+</div>
+<audio controls autoplay hidden>
+    <source id="music" src="../../Videos/astronomia.mp3">
+    <script>
+        var audio = document.querySelector("audio");
+        audio.volume=0.05;
+    </script>
+    <p>Ваш браузер не поддерживает аудио</p>
+</audio>
+<header class="header">
+    <div class="content" style="text-align: left">
+        <a href="https://vk.com/cawaiv"><span>Иванников Александр Романович</span>
+            <span>Вариант №2313</span></a>
+
+    </div>
+</header>
+<div class="container content block">
+    <div class="politicalCoordinates">
+        <img src="../../images/coordinates.png" width="400" height="436">
+    </div>
+    <form class="form" method="POST" id="coordinate_form">
+        Введи радиус и координаты в форму
+        <div class="selectBlock">
+            <select class="text" name = "coordinateX" id="value_x">
+                <option value="-5">-5</option>
+                <option value="-4">-4</option>
+                <option value="-3">-3</option>
+                <option value="-2">-2</option>
+                <option value="-1">-1</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            Выберите X
+        </div>
+        <div class="selectBlock">
+            <input type="text" class="text input" required name="value_y" maxlength="8" id="value_y">
+            Введите Y
+        </div>
+            <div class="selectBlock">
+                <select class="text" name="radius" id="value_r">
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
+                    <option value="2">2</option>
+                    <option value="2.5">2.5</option>
+                    <option value="3">3</option>
+                </select>
+                Выберите R
+            </div>
+        <div>
+            <span class="selectBlock">
+                <input class="text button" id="submit" type="submit" name="submit" value="Утвердить">
+            </span>
+            <span class="selectBlock">
+                <input class="text button" id="clear" type="button" name="clear" value="Очистить">
+            </span>
+        </div>
+
+    </form>
+    <div id="result_form"></div>
+    <table id="result"  border="1" class="resultForm">
+            <tr>
+                <th width="100">Попал?</th>
+                <th>Координата X</th>
+                <th>Координата Y</th>
+                <th>Радиус</th>
+                <th>Текущее время</th>
+                <th>Врамя запроса</th>
+                <th width="250">Кто ты.</th>
+            </tr>
+    </table>
+</div>
+
+</body>
+</html>
